@@ -20,11 +20,13 @@ function App() {
 
   return (
     <div className="app">
+        <a href="http://localhost:3001/">
+          <button className='button'>Portfolio</button>
+        </a>
       <div className='search'>
         <input value={location} onChange={event => setLocation(event.target.value)} type='text'
           onKeyDown={searchLocation}
           placeholder='Enter City'>
-
         </input>
       </div>
         <div className="container">
