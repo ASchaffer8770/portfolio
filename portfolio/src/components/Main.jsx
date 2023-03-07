@@ -1,5 +1,6 @@
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
+import {FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -18,7 +19,7 @@ const Main = () => {
                         'Software Engineer', // Deletes 'One' and types 'Two'
                         4000, // Waits 2s
                         'Tech Enthusiast',
-                        4000 // Types 'Three' without deleting 'Two'
+                        4000 // Types 'Three' with deleting 'Two'
                         ]}
                         wrapper="div"
                         cursor={true}
@@ -26,6 +27,12 @@ const Main = () => {
                         style={{ fontSize: '1em', paddingLeft: '5px' }}
                     />
                 </h2>
+                <div>
+                    <FaTwitter />
+                    <FaFacebookF />
+                    <FaInstagram />
+                    <FaLinkedinIn />
+                </div>
             </div>
         </div>
     </div>
