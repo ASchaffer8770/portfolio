@@ -2,7 +2,7 @@ import React from 'react'
 
 const FirstWork = ({company, title, start, end, details}) => {
   return (
-    <ol className='flex flex-col md:flex-row realtive border-l border-stone-200'>
+    <ol className='flex flex-col md:flex-row relative border-l border-stone-200'>
         <li className='mb-10 ml-4 '>
             <div className='absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 bg-[#001b5e]'/>
             <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
