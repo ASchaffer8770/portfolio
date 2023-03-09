@@ -28,7 +28,9 @@ const Main = () => {
                     />
                 </h2>
                 <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                    <FaLinkedinIn className= 'cursor cursor-pointer' size={20}/>
+                    <a href='https://www.linkedin.com/in/alexander-schaffer/'>
+                        <FaLinkedinIn className= 'cursor cursor-pointer' size={20} />
+                    </a>
                     <FaTwitter className = 'cursor cursor-pointer' size={20}/>
                     <FaFacebookF className = 'cursor cursor-pointer' size={20}/>
                     <FaInstagram className = 'cursor cursor-pointer' size={20}/>
