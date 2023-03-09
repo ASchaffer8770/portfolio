@@ -28,10 +28,11 @@ const Main = () => {
                     />
                 </h2>
                 <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+                    <FaLinkedinIn className= 'cursor cursor-pointer' size={20}/>
                     <FaTwitter className = 'cursor cursor-pointer' size={20}/>
                     <FaFacebookF className = 'cursor cursor-pointer' size={20}/>
                     <FaInstagram className = 'cursor cursor-pointer' size={20}/>
-                    <FaLinkedinIn className= 'cursor cursor-pointer' size={20}/>
+                    
                 </div>
             </div>
         </div>
