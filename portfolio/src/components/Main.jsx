@@ -16,9 +16,9 @@ const Main = () => {
                         sequence={[
                         'Full Stack Web Applications', // Types 'One'
                         3000, // Waits 1s
-                        'Windows and Android Applications', // Deletes 'One' and types 'Two'
+                        'Digital Solutions', // Deletes 'One' and types 'Two'
                         3000, // Waits 2s
-                        'Custom Software Solutions',
+                        'Custom Software',
                         3000 // Types 'Three' with deleting 'Two'
                         ]}
                         wrapper="div"
